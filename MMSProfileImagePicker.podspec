@@ -31,5 +31,5 @@ Pod::Spec.new do |s|
 
   s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit', 'AVFoundation', 'CoreMedia', 'ImageIO'
-  s.dependency 'MMSCameraViewController'
+  s.dependency 'MMSCameraViewController', :git => "https://github.com/KristianL1415/MMSCameraViewController.git"
 end
